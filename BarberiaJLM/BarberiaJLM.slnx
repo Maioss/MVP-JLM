@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BarberiaJLM.Api/BarberiaJLM.Api.csproj" />
+    <Project Path="src/BarberiaJLM.Application/BarberiaJLM.Application.csproj" />
+    <Project Path="src/BarberiaJLM.Domain/BarberiaJLM.Domain.csproj" />
+    <Project Path="src/BarberiaJLM.Infrastructure/BarberiaJLM.Infrastructure.csproj" />
+  </Folder>
+</Solution>

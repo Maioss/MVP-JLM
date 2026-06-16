@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: barberia-jlm-db
+    environment:
+      POSTGRES_DB: barberia_jlm
+      POSTGRES_USER: barberia
+      POSTGRES_PASSWORD: barberia123
+    ports:
+      - "5432:5432"
+    volumes:
+      - barberia_data:/var/lib/postgresql/data
+
+volumes:
+  barberia_data:

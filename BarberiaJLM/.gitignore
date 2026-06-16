@@ -1,0 +1,29 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+*.user
+.vs/
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+
+# Node
+node_modules/
+dist/
+
+# Environment secrets
+.env
+appsettings.Local.json
+
+# SQLite (no aplica pero por convención)
+*.db
+*.db-journal
+
+# OS
+.DS_Store
+Thumbs.db
